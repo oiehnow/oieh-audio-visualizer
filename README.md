@@ -27,7 +27,7 @@ MP3(및 wav·flac·ogg 등)를 넣으면 **GPU로 렌더링한 비주얼라이�
 
 ### A. 그냥 받아서 실행 (가장 쉬움 — Python 불필요)
 
-1. [**Releases에서 AudioVisualizer-win64.zip 다운로드**](https://github.com/oiehnow/audio-visualizer/releases/latest)
+1. [**Releases에서 AudioVisualizer-win64.zip 다운로드**](https://github.com/oiehnow/oieh-audio-visualizer/releases/latest)
 2. 압축을 풀고 `AudioVisualizer.exe` 더블클릭 — 브라우저가 자동으로 열립니다
 
 ### B. 소스에서 실행 (개발자)
@@ -35,8 +35,8 @@ MP3(및 wav·flac·ogg 등)를 넣으면 **GPU로 렌더링한 비주얼라이�
 [uv](https://docs.astral.sh/uv/)가 필요합니다.
 
 ```powershell
-git clone https://github.com/oiehnow/audio-visualizer.git
-cd audio-visualizer
+git clone https://github.com/oiehnow/oieh-audio-visualizer.git
+cd oieh-audio-visualizer
 uv sync
 uv run visualizer        # 브라우저가 자동으로 열립니다
 ```
