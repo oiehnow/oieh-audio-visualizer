@@ -1,0 +1,21 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# build artifacts (rebuild with PyInstaller — see README)
+build/
+dist/
+
+# renders and local media (never publish user content)
+output/
+sample/
+uploads/
+*.webm
+
+# local notes
+*.txt
+
+# session tooling
+.claude/
