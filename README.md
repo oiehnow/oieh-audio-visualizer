@@ -95,3 +95,7 @@ src/visualizer/
 frontend/       # 바닐라 JS UI (빌드 스텝 없음)
 tests/          # pytest (합성 오디오 픽스처 포함)
 ```
+
+## 라이선스
+
+[MIT](LICENSE)
